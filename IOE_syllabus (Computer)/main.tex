@@ -1,0 +1,297 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage[english]{babel}
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\usepackage{multirow}
+\usepackage{ragged2e}
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{xparse}
+
+\NewDocumentCommand\mylist{>{\SplitList{;}}m}
+       {
+         \begin{enumerate}
+           \ProcessList{#1}{ \insertitem }
+         \end{enumerate}
+       }
+\newcommand\insertitem[1]{\item #1}
+
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+\renewcommand{\labelenumii}{\labelenumi\arabic{enumii}.}
+\renewcommand{\labelenumiii}{\labelenumii\arabic{enumiii}.}
+\renewcommand{\labelenumiv}{\labelenumiii\arabic{enumiv}}
+
+
+\begin{document}
+
+\input{coverpage.tex}
+
+\newpage
+%introduction to course and marking system
+\input{premble.tex}
+\newpage
+% grading table for each semester
+\input{gradingTables.tex}
+\newpage
+% Syllabus of Engineering Mathematics I
+\input{SH401.tex}
+
+\newpage
+% Syllabus of Computer Programming 
+\input{CT401.tex}
+
+\newpage
+% Syllabus of Engineering Drawing I
+\input{ME401.tex}
+
+\newpage
+% Syllabus of Engineering Physics
+\input{SH402.tex}
+\newpage
+
+% Syllabus of Applied Mechanics
+\input{CE401.tex}
+
+\newpage
+% Syllabus of Basic Electrical Engineering 
+\input{EE401.tex}
+
+\newpage
+% Syllabus of Engineering Mathematics II
+\input{SH451.tex}
+
+
+\newpage
+% Syllabus of Engineering Drawing II
+\input{ME451.tex}
+
+\newpage
+% Syllabus of Basic Electronics Engineering
+\input{EX451.tex}
+
+\newpage
+% syllabus of Engineering Chemistry
+\input{SH453.tex}
+
+\newpage
+% syllabus of Thermodynamics and heat transfer
+\input{ME452.tex}
+
+
+\newpage
+% syllabus of Workshop technology
+\input{ME453.tex}
+
+\newpage
+% syllabus of Engineering Mathematics III
+\input{SH501.tex}
+
+\newpage
+% syllabus of OOP
+\input{CT501.tex}
+
+
+\newpage
+% syllabus of Electric Circuit theory
+\input{EE501.tex}
+
+\newpage
+% syllabus of Engineering Materials
+\input{EE502.tex}
+
+\newpage
+% syllabus of Electronic Devices and Circuits
+\input{EX501.tex}
+
+\newpage
+% Syllabus of Digital Logic
+\input{EX502.tex}
+
+\newpage
+% Syllabus of Electromagnetics
+\input{EX503.tex}
+
+\newpage
+% Syllabus of Applied Mathematics
+\input{SH551.tex}
+
+
+\newpage
+% Syllabus of Numerical Methods
+\input{SH553.tex}
+
+
+\newpage
+% syllabus of Instrumentation I
+\input{EE552.tex}
+
+
+\newpage
+% syllabus of Power system
+\input{EE553.tex}
+
+\newpage
+% syllabus of Electrical Machines
+\input{EE554.tex}
+
+\newpage
+% syllabus of Microprocessors
+\input{EX551.tex}
+
+\newpage
+% syllabus of Discrete Structure
+\input{CT551.tex}
+
+\newpage
+% syllabus of Communication English
+\input{SH601.tex}
+
+\newpage
+% syllabus of Probability and Statistics
+\input{SH602.tex}
+
+\newpage
+% syllabus of Control system
+\input{EE602.tex}
+
+\newpage
+% syllabus of Advanced Electronics
+\input{EX601.tex}
+
+\newpage
+% syllabus of Instrumentation II
+\input{EX602.tex}
+
+\newpage
+% syllabus of Computer Graphics
+\input{EX603.tex}
+
+\newpage
+% syllabus of COA
+\input{CT603.tex}
+
+\newpage
+% syllabus of Engineering economics
+\input{CE655.tex}
+
+\newpage
+% syllabus of Embedded System
+\input{CT655.tex}
+
+\newpage
+% syllabus of Computer Network
+\input{CT657.tex}
+
+
+\newpage
+% syllabus of Signals and Systems
+\input{EX651.tex}
+
+\newpage
+%syllabus of Communication System I
+\input{EX652.tex}
+
+
+\newpage
+%syllabus of Propagation and Antenna
+\input{EX653.tex}
+
+\newpage
+%syllabus of Minor Project
+\input{EX654.tex}
+
+
+\newpage
+%syllabus of Project Management
+\input{CT701.tex}
+
+\newpage
+% syllabus of O&M
+\input{ME708.tex}
+
+\newpage
+% syllabus of Energy, Environment and Society
+\input{EX701.tex}
+
+\newpage
+% syllabus of Communication System II
+\input{EX702.tex}
+
+\newpage
+% syllabus of Telecommunication 
+\input{EX703.tex}
+
+\newpage
+% syllabus of Filter Design
+\input{EX704.tex}
+
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+   { \huge\textbf{\uppercase{Elective I}}}
+    
+\vspace*{\fill}
+\end{center}
+
+\newpage
+% syllabus of Biomedical Instrumentation
+\input{EX72503.tex}
+
+\newpage
+% syllabus of Engineering Professional Practice
+\input{CE752.tex}
+
+\newpage
+% syllabus of Wireless Communications
+\input{EX751.tex}
+
+\newpage
+% syllabus of RF and Microwave Engineering
+\input{EX752.tex}
+
+\newpage
+% syllabus of Digital Signal Processing
+\input{EX753.tex}
+
+
+\newpage
+% syllabus of Digital Signal Processing
+\input{EX755.tex}
+
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+   { \huge\textbf{\uppercase{Elective II}}}
+    
+\vspace*{\fill}
+\end{center}
+
+\newpage
+% syllabus of Optical fiber Communication System
+\input{EX76501.tex}
+
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+   { \huge\textbf{\uppercase{Elective III}}}
+    
+\vspace*{\fill}
+\end{center}
+
+\newpage
+% syllabus of Remote sensing
+\input{CT78501.tex}
+
+
+\end{document}

@@ -1,0 +1,121 @@
+\begin{center}
+    \textbf{\huge{\uppercase{Filter Design}}}
+    \\
+    \vspace{.5cm}
+    \textbf{\large{EX 704}}
+\end{center}
+
+\noindent\textbf{Lecture\ \ \ : 3} \hfill \textbf{Year : IV} \\
+\textbf{Tutorial \ : 1} \hfill \textbf{Part : I } \\
+\textbf{Practical : 3/2}  \\
+
+\par
+\noindent 
+\section*{Course Objective:}
+To familiarize student with the concept of analog filter design: passive filters, RC active filters and switched-capacitor filters
+
+\mylist{
+    \textbf{Introduction \hfill (4 hours)}
+    \mylist{
+        Filter and its importance in communication;
+        Kinds of filters in terms of frequency response;
+        Ideal response and response of practical filters;
+        Normalization and de-normalization in filter design;
+        Impedance (magnitude) scaling and frequency scaling;
+        History of filter design and available filter technologies
+    };
+    \textbf{Approximation Methods \hfill (8 hours)}
+    \mylist{
+        Approximation and its importance in filter design;
+        Lowpass approximations methods;
+        Butterworth response, Butterworth pole locations, Butterworth filter design from specifications;
+        Chebyshev and inverse Chebyshev characteristics, network functions and pole zero locations;
+        Characteristics of Cauer (elliptic) response;
+        Bessel-Thomson approximation of constant delay;
+        Delay Equalization
+    };
+    \textbf{Properties and Synthesis of Passive Networks \hfill (7 hours)}
+    \mylist{
+        One-port passive circuits
+        \mylist{
+            Properties of passive circuits, positive real functions;
+            Properties of lossless circuits;
+            Synthesis of LC one-port circuits, Foster and Cauer circuits;
+            Properties and synthesis of RC one-port circuits
+        };
+        Two-port passive circuits
+        \mylist{
+            Properties of passive two-port circuits, residue condition, transmission zeros;
+            Synthesis of two-port LC and RC ladder circuits based on zero-shifting by partial pole removal
+        }
+    };
+    \textbf{Design of Resistively-terminated lossless filter \hfill (4 hours)}
+    \mylist{
+        Properties of resistively-terminated lossless ladder circuits, transmission and reflection coefficients;
+        Synthesis of LC ladder circuits to realize all-pole lowpass functions;
+        Synthesis of LC ladder circuits to realize functions with finite transmission zeros
+    };
+    \textbf{Active Filter \hfill (7 hours)}
+    \mylist{
+        Fundamentals of Active Filter Circuits
+        \mylist{
+            Active filter and passive filter;
+            Ideal and real operational amplifiers, gain-bandwidth product;
+            Active building blocks: amplifiers, summers, integrator;
+            First order passive sections and active sections using inverting and non-inverting op-amp configuration
+        };
+        Second order active sections (biquads)
+        \mylist{
+            Tow-Thomas biquad circuit, design of active filter using Tow-Thomas biquad;
+            Sallen-Key biquad circuit and Multiple-feedback biquad (MFB) circuit;
+            Gain reduction and gain enhancement;
+            RC-CR transformation
+        }
+    };
+    \textbf{Sensitivity \hfill (3 hours)}
+    \mylist{
+        Sensitivity and importance of sensitivity analysis;
+        Definition of single parameter sensitivity;
+        Centre frequency and Q-factor sensitivity;
+        Sensitivity properties of biquads;
+        Sensitivity of passive circuits
+    };
+    \textbf{Design of High-Order Active Filters \hfill (6 hours)}
+    \mylist{
+        Cascade of biquads
+        \mylist{
+            Sequencing of filter blocks, centre frequency, Q-factor and gain 
+        };
+        Active simulation of passive filters
+        \mylist{
+            Ladder design with simulated inductors;
+            Ladder design with frequency-dependent negative resistors (FDNR);
+            Leapfrog simulation of ladders
+        }
+    };
+    \textbf{Switched-Capacitor Filters \hfill (4 hours)}
+    \mylist{
+        The MOS switch and switched capacitor;
+        Simulation of resistor by switched capacitor;
+        Switched-capacitor circuits for analog operations: addition, subtraction, multiplication and integration;
+        First-order and second-order switched-capacitor circuits
+    }
+}
+
+
+\section*{Practical:}
+The laboratory experiments consist computer simulation as well hardware realization for analysis and design of passive and active filters which include.
+\begin{itemize}
+    \item Analysis and design of passive and active filter circuits using computer simulation
+    \item Design of active filters using biquad circuits
+    \item Design of higher order active filters using inductor simulation
+    \item Design of higher order active filters using functional simulation
+\end{itemize}
+
+
+\section*{References:}
+\mylist{
+    Rolf Schaunmann, Mac E. Van Valkenburg, ``Design of Analog Filters";
+    Wai-Kai Chen, `` Passive and Active Filters (Theory and Implementations)";
+    Kendal L. Su., ``Analog Filter"
+}

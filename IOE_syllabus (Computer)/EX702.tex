@@ -1,0 +1,104 @@
+\begin{center}
+    \textbf{\huge{\uppercase{Communication Systems II}}}
+    \\
+    \vspace{.5cm}
+    \textbf{\large{EX 702}}
+\end{center}
+
+\noindent\textbf{Lecture\ \ \ : 3} \hfill \textbf{Year : IV} \\
+\textbf{Tutorial \ : 0} \hfill \textbf{Part : I } \\
+\textbf{Practical : 3/2}  \\
+
+\par
+\noindent 
+\section*{Course Objective:}
+To introduce the student to the principles and building blocks of digital communication systems and effects of noise on the performance of communication systems.
+
+\mylist{
+    \textbf{Introduction \hfill (3 hours)}
+    \mylist{
+        Digital communication sources, transmitters, transmission channels and receivers;
+        Noise, distortion and interference. Fundamental limitations due to noise, distortion and interference;
+        Source coding, coding efficiency, Shannon-Fano and Huffman codes, coding of continuous time signals (A/D conversion)
+    };
+    \textbf{Sampling Theory \hfill (4 hours)}
+    \mylist{
+        Nyquist-Kotelnikov sampling theorem for strictly band-limited continuous time signals, time domain and frequency domain analysis, spectrum of sampled signal, reconstruction of sampled signal.;
+        Ideal, flat-top and natural sampling processes, sampling of band-pass signals, sub-sampling theory;
+        Practical considerations: non-ideal sampling pulses (aperture effect), non-ideal reconstruction filter and time-limitness of the signal to be sampled (aliasing effects)
+    };
+    \textbf{Pulse Modulation Systems \hfill (8 hours)}
+    \mylist{
+        Pulse Amplitude Modulation (PAM), generation, bandwidth requirements, spectrum, reconstruction methods, time division multiplexing;
+        Pulse position and pulse width modulations, generation, bandwidth requirements;
+        Pulse code modulation as the result of analog to digital conversion, uniform quantization.;
+        Quantization noise, signal to quantization noise ratio in uniform quantization;
+        Non-uniform quantization, improvement in average SQNR for signals with high crest factor, companding techniques ($\mu$ and A law companding);
+        Time Division Multiplexing with PCM, data rate and bandwidth of a PCM signal The T1 and E1 TDM, PCM telephone hierarchy;
+        Differential PCM, encoder, decoder;
+        Delta Modulation, encoder, decoder, noises in DM, SQNR. Comparison between PCM and DM;
+        Parametric speech coding, vocoders
+    };
+    \textbf{Baseband Data Communication Systems \hfill (7 hours)}
+    \mylist{
+        Introduction to information theory, measure of information, entropy, symbol rates and data (bit) rates;
+        Shannon Hartley Channel capacity theorem. Implications of the theorem and theoretical limits.;
+        Electrical representation of binary data(line codes), Unipolar NRZ, bipolar NRZ, unipolar RZ, bipolar RZ, Manchester (split phase), differential (binary RZ-alternate mark inversion) codes, properties, comparisons;
+        Baseband data communication systems, Inter-symbol interference (ISI), pulse shaping (Nyquist, Raised-cosine) and bandwidth considerations;
+        Correlative coding techniques, duobinary and modified duobinary encoders;
+        M-ary signaling, comparison with binary signaling;
+        The eye diagram
+    };
+    \textbf{Bandpass (modulated) data communication systems \hfill (4 hours)}
+    \mylist{
+        Binary digital modulations, ASK, FSK, PSK, DPSK, QPSK, GMPSK, implementation, properties and comparisons;
+        M-ary data communication systems, quadrature amplitude modulation systems, four phase PSK systems;
+        Demodulation of binary digital modulated signals (coherent and non-coherent);
+        Modems and its applications
+    };
+    \textbf{Random signals and noise in communication systems \hfill (7 hours)}
+    \mylist{
+        Random variables and processes, random signals, statistical and time averaged moments, interpretation of time averaged moments of a random process stationary process, ergodic process, psdf and AC function of a ergodic random process;
+        White noise, thermal noise, band-limited white noise, the psdf and AC function of white noise;
+        Passage of wide-sense stationary random signals through a LTI;
+        Ideal low-pass and RC filtering of white noise, noise equivalent bandwidth of a filter;
+        Optimum detection of a pulse in additive white noise, the matched filter. Realization of matched filters (time co-relators). The matched filter for a rectangular pulse, ideal LPF and RC filters as matched filters;
+        Performance limitation of baseband data communications due to noise, error probabilities in binary and M-ary baseband data communication.
+    };
+    \textbf{Noise performance of band-pass(modulated) communication systems \hfill (8 hours)}
+    \mylist{
+        Effect of noise in envelop and synchronous demodulation of DSB-FC AM, expression for gain parameter (ratio of output SNR to input SNR), threshold effect in non-linear demodulation of AM;
+        Gain parameter for demodulations of DSB-SC and SSB using synchronous demodulators;
+        Effect of noise (gain parameter) for non-coherent (limiter-discriminator-envelop detector) demodulation of FM, threshold effect in FM. Use of pre-emphasis and de-emphasis circuits in FM;
+        Comparison of AM (DSB-FC, DSB-SC, SSB) and FM (Narrow and wide bands) in terms power efficiency, channel bandwidth and complexity;
+        Noise performance of modulated digital systems. Error probabilities for ASK, FSK, PSK, DPSK with coherent and non-coherent demodulation;
+        Comparison of modulated digital systems in terms of bandwidth efficiency, power efficiency and complexity
+    };
+    \textbf{Error control coding techniques \hfill (4 hours)}
+    \mylist{
+        Basic principles of error control coding, types, basic definitions (hamming weight), hamming distance, minimum weight), hamming distance and error control capabilities;
+        Linear block codes (systematic and non-systematic), generation, capabilities, syndrome calculation;
+        Binary cyclic codes (systematic and non-systematic), generation, capabilities, syndrome calculation;
+        Convolution codes, implementation, code tree, trellis and decoding algorithms
+    }
+}
+
+\section*{Practical:}
+\mylist{
+    Study of line codes;
+    Study of PCM;
+    Study of DPCM;
+    Study of DM;
+    Study of ASK, FSK and PSK;
+    Study of eye diagram
+}
+
+
+\section*{References:}
+\mylist{
+    S. Haykin, Analog and Digital communication systems;
+    Leon Couch, Digital and analog communication systems;
+    B.P. Lathi, Analog and Digital communication systems;
+    J. Proakis, Analog and Digital communication systems;
+    D. Sharma, Course manual ``Communication Systems II"
+}
