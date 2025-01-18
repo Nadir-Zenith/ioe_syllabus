@@ -1,0 +1,157 @@
+\begin{center}
+    \textbf{\huge{\uppercase{Instrumentation II}}}
+    \\
+    \vspace{.5cm}
+    \textbf{\large{EX 602}}
+\end{center}
+
+\noindent\textbf{Lecture\ \ \ : 3} \hfill \textbf{Year : III} \\
+\textbf{Tutorial \ : 1} \hfill \textbf{Part : I } \\
+\textbf{Practical : 3/2}  \\
+
+\par
+\noindent 
+\section*{Course Objective:}
+To introduce and apply the knowledge of microprocessor, A/D, D/A converter to design instrumentation system and to provide the concept of interfacing with microprocessor based system and circuit design techniques.
+
+\mylist{
+    \textbf{Microprocessor Based Instrumentation System \hfill (4 hours)}
+    \mylist{
+        Basic Features of Microprocessor Based System;
+        Open Loop and Closed Loop Microprocessor Based System;
+        Benefits of Microprocessor Based System;
+        Microcomputer on Instrumentation Design;
+        Interfacing with Microprocessor
+        \mylist{
+            PC Interfacing Techniques;
+            Review of Address Decoding;
+            Memory Interfacing;
+            Programmed I/O, Interrupt Driven I/O and Direct Memory Access(DMA)
+        }
+    };
+    \textbf{Parallel Interfacing With Microprocessor Based System \hfill (4 hours)}
+    \mylist{
+        Methods of Parallel Data Transfer: Simple Input and Output, Strobe I/O, Single Handshake I/O, Double Handshake I/O;
+        8255 as General Purpose Programmable I/O Device and its interfacing examples;
+        Parallel Interfacing with ISA and PCI bus
+    };
+    \textbf{Serial Interfacing With Microprocessor Base System \hfill (6 hours)}
+    \mylist{
+        Advantages of Serial Data Transfer Over Parallel;
+        Synchronous and Asynchronous Data Transfer;
+        Errors in Serial Data Transfer;
+        Simplex, Half Duplex and Full Duplex Data Communication;
+        Parity and Baud Rates;
+        Introduction Serial Standards RS232, RS423, RS422;
+        Universal Serial Bus
+        \mylist{
+            The Standards: USB 1.1 and USB 2.0;
+            Signals, Throughput \& Protocol;
+            Devices, Hosts and On-the-Go;
+            Interface Chips: USB Device and USB Host
+        }
+    };
+    \textbf{Interfacing A/D and D/A converters \hfill (4 hours)}
+    \mylist{
+        Introduction;
+        General Terms Involved in A/D and D/A converters;
+        Examples of A/D and D/A interfacing;
+        Selection of A/D and D/A converters based on Design Requirements
+    };
+    \textbf{Data Acquisition and Transmission \hfill (5 hours)}
+    \mylist{
+        Analog and Digital Transmission;
+        Transmission Schemes
+        \mylist{
+            Fiber Optics;
+            Satellite;
+            Bluetooth Devices
+        };
+        Data Acquisition System
+        \mylist{
+            Data Loggers;
+            Data Archiving and Storage
+        }
+    };
+    \textbf{Grounding and Shielding \hfill (3 hours)}
+    \mylist{
+        Outline for Grounding and Shielding;
+        Noise, Noise Coupling mechanism and prevention;
+        Single Point Grounding and Ground Loop;
+        Filtering and Smoothing;
+        Decoupling Capacitors and Ferrite Beads;
+        Line filters, Isolators and Transient Suppressors;
+        Different Kinds of Shielding Mechanism;
+        Protecting against Electrostatic discharge;
+        General Rules of Design
+    };
+    \textbf{Circuit Design \hfill (3 hours)}
+    \mylist{
+        Converting Requirements into Design;
+        Reliability and Fault Tolerance;
+        High Speed Design;
+        Bandwidth, Decoupling, Ground Bounce, Crosstalk, impedance matching, and Timing;
+        Low Power Design;
+        Reset and Power Failure Detection and interface unit
+    };
+    \textbf{Circuit Layout \hfill (3 hours)}
+    \mylist{
+        Circuits Boards and PCBs;
+        Componetnt Placement;
+        Routing Signal Tracks \\ Trace Density, Common Impedance, Distribution of Signals and Return, \\
+        Transmission Line Concerns, Trace Impedance and Matching and Avoiding Crosstalk;
+        Ground, Returns and Shields;
+        Cables and Connectors;
+        Testing and Maintenance 
+    };
+    \textbf{Software for Instrumentation and Control Applications \hfill (4 hours)}
+    \mylist{
+        Types of Software, Selection and Purchase;
+        Software Models and Their Limitations;
+        Software Reliability;
+        Fault Tolerance; 
+        Software Bugs and Testing;
+        Good Programming Practice;
+        User Interface;
+        Embedded and Real time software
+    };
+    \textbf{Case Study \hfill (9 hours)}
+    \\
+    Examples chosen from local industrial situations with particular attention paid to the basic measurement requirements, accuracy, and specific hardware employed environmental conditions under which the instruments must operate, signal processing and transmission, output devices:
+    \begin{enumerate}[label=\alph*)]
+        \item Instrumentation for a power station including all electrical and non-electrical parameters
+        \item Instrumentation for a wire and cable manufacturing and bottling plant
+        \item Instrumentation for a beverage manufacturing and bottling plant
+        \item Instrumentation for a complete textile plant{;} for example, a cotton mill from raw cotton through to finished dyed fabric
+        \item Instrumentation for a process{;} for example, an oil seed processing plant from raw seed through to packaged edible oil product
+        \item Instruments required for a biomedical application such as a medical clinic or hospital
+        \item Other industries can be selected with the consent of the subject teacher
+    \end{enumerate}
+}
+
+\section*{Practical:}
+The laboratory exercises deal interfacing techniques using microprocessor or microcontrollers. There will be about six sessions which should cover at least following:
+\mylist{
+    Simple and Handshake data transfer using PPI.;
+    Basic I/O device interfacing like keyboard, seven segments, motors, etc;
+    Analog to Digital interfacing;
+    Digital to Analog interfacing;
+    Design exercise (small group project)
+}
+
+Study in detail the instrumentation requirements of a particular proposed or existing industrial plant and design an instrumentation and data collection system for that particular industrial plant. The final report should present the instrumentation requirements in terms of engineering specification, the hardware solution suggested, a listing of the particular devices chosen to satisfy the requirements, appropriate system flow diagrams, wiring diagrams, etc. to show how the system would be connected and operated.
+
+
+\section*{References:}
+\mylist{
+    D.V. Hall, ``Microprocessor and Interfacing, Programming and Hardware", Tata McGraw Hill;
+    K.R. Fowler, ``Electronic Instrument Design: Architecting for the Life Cycle", Oxford University Press;
+    Ramesh S. Gaonkar, ``Microprocessor Architecture, Programming and Application with 8085", Prentice Hall;
+    A.K. Ray and K.M. Bhurchandi, ``Advanced Microprocessors and Peripherals", Tata McGraw Hill;
+    E.O. Duebelin, ``Measurement System Application and Design", Tata McGraw Hills;
+    John Hyde, ``USB Design By Example", Intel Press;
+    PCI bus, USB, 8255, Bluetooth datasheets;
+    D.M. Consodine, ``Process Instruments and Controls Handbook", McGraw Hill, New York.;
+    S. Wolf and R.F. Smith, ``Student Reference Manual for Electronic Instrumentation Laboratories", Prentice Hall;
+    S.E. Derenzo, ``Interfacing: A laboratory Approach Using the Microcomputer for Instrumentation, Data Analysis, and Control", Prentice Hall
+}
