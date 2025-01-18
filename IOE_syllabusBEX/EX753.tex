@@ -1,0 +1,98 @@
+\begin{center}
+    \textbf{\huge{\uppercase{Digital Signal Processing}}}
+    \\
+    \vspace{.5cm}
+    \textbf{\large{EX 753}}
+\end{center}
+
+\noindent\textbf{Lecture\ \ \ : 3} \hfill \textbf{Year : IV} \\
+\textbf{Tutorial \ : 1} \hfill \textbf{Part : II } \\
+\textbf{Practical : 3/2}  \\
+
+\par
+\noindent 
+\section*{Course Objectives:}
+To introduce digital signal processing techniques and applications, and to design and implement IIR and FIR digital filter.
+
+
+\mylist{
+    \textbf{Introduction \hfill (4 hours)}
+    \mylist{
+        Basic elements of Digital Signal Processing;
+        Need of Digital Signal Processing over Analog Signal Processing;
+        A/D and D/A conversion;
+        Sampling continuous signals and spectral properties of sampled signals
+    };
+    \textbf{Discrete-time Signals and System \hfill (6 hours)}
+    \mylist{
+        Elementary discrete-time signals;
+        Linearity, Shift invariance, Causality of discrete systems;
+        Recursive and Non-recursive discrete-time systems;
+        Convolution sum and impulse response;
+        Linear Time-invariant systems characterized by constant coefficient difference equations;
+        Stability of LTI systems, Implementation of LTI system.
+    };
+    \textbf{Z-Transform \hfill (6 hours)}
+    \mylist{
+        Definition of the z-transform;
+        One-side and two-side transforms, ROC, Left-side, Right-sided and two-sided sequences, Region of convergence, Relationship to causality;
+        Inverse z-transform-by long division, by partial fraction expansion;
+        Z-transform properties-- dealay advance, Convolution, Parseval's theorem;
+        Z-transform function H(z)-transient and steady state sinusoidal response, pole-zero relationship stability
+    };
+    \textbf{Discrete Fourier Transform \hfill (7 hours)}
+    \mylist{
+        Definition and applications, Frequency domain sampling and for reconstruction, Forward and Reverse transforms, Relationship of the DFT to other transforms;
+        Properties of Discrete Fourier Transform: Periodicity, Linearity, and Symmetry Properties, Multiplication of two DFTs and Circular Convolution, Time reversal, Circular time shift and Multiplication of two sequences circular frequency shift, Circular correlation and Parseval's Theorem;
+        Efficient computation of the DFT: Algorithms, applications, applications of FFT algorithms
+    };
+    \textbf{Implementation of Discrete-time System \hfill (8 hours)}
+    \mylist{
+        Structures of FIR and IIR, Direct Form, Cascaded and parallel form, Lattice for FIR;
+        Conversion between direct form and lattice and vice versa, Lattice and lattice-ladder for IIR;
+        Frequency response;
+        Digital filters, finite precision implementations of discrete filters;
+        Representation of Numbers: Fixed point and floating binary point, Effect of Rounding and truncation, Limit cycle oscillations effect;
+        Quantization of filter coefficients and effects on location of poles, and zeros, poles perturbation, Overflow and underflow error, Scaling to prevent overflow and underflow
+    };
+    \textbf{IIR Filter Design \hfill (5 hours)}
+    \mylist{
+        IIR Filter Design: IIR Filter design by classical filter design using low pass approximations Butterworth, Chebychev, Inverse Chebyshev, Elliptic and Bessel-Thompson filters;
+        IIR filter design by Impulse-invariant method, Bilinear Transformation Method, Mathched z-transform method;
+        IIR Lowpass discrete filter design using bilinear transformation;
+        Spectral transformations, highpass, bandpass and Notch filters
+    };
+    \textbf{FIR Filter Design \hfill (5 hours)}
+    \mylist{
+        FIR filter design by Fourier approximation;
+        Gibbs phenomena in FIR filter design, Design of Linear Phase FIR filters using window function, Applications of window functions to frequency response smoothing;
+        Window functions, Rectangular, Hamming, Blackman, and Kaiser windows;
+        Design of linear phase FIR filter by the frequency sampling method;
+        FIR filter design using the Remez exchange algorithm;
+        Design of optimum equiripple linear-phase FIR filters
+    };
+    \textbf{Digital Filter Implementation \hfill (4 hours)}
+    \mylist{
+        Implementations using special purpose DSP processor;
+        Bit-serial arithmetic, pipelined implementations;
+        Distributed arithmetic implementations.
+    }
+}
+
+\section*{Practical:}
+\mylist{
+    Study the behavior of a simple digital notch filter;
+    Response of a recursive digital filter;
+    Scaling, dynamic range and noise behaviour of a recursive digital filter, observation of nonlinear finite precision effects;
+    Response of a non-recursive digital filter, Implementation in Impulsive Invariant and Bilinear Transformation;
+    Band pass filters implemented using cascade second order sections and wave or ladder filters, Comparison of implementations;
+    Design of FIR filter using window method, Comparison of FIR filter for different windowing method.
+}
+
+
+\section*{References:}
+\mylist{
+    J.G. Proakis and D.G. Manolakis, ``Digital Signal Processing", Prentice Hall;
+    A.V. Oppenheim, `` Discrete-Time Signal Processing", Prentice Hall;
+    S.K. Mitra, ``Digital Signal Processing, A computer- based Approach", McGraw Hill
+}
